@@ -1,0 +1,133 @@
+<!DOCTYPE html><!-- Define o tipo do documento como HTML5 -->
+<html lang="en"><!-- Define o idioma principal como inglês -->
+<head>
+    <meta charset="UTF-8"><!-- Suporte a caracteres como acentuação -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title><!-- Título da aba do navegador -->
+    
+    <!-- Carregamento eficiente da fonte Poppins do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Conecta ao arquivo CSS externo com os estilos da página -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>  <!-- Primeira seção com título e menu -->
+    <div class="container">
+        <div id="header">
+            Portifólio <!-- Título principal -->
+        </div>
+        <div id="menu">
+            <ul>
+                <!-- Links que fazem rolagem até seções da mesma página -->
+                <li><a href="#services">Meu serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#portifolioTitle">Portifólio</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Seção do cabeçalho com CTA (chamada para ação) e imagem -->
+    <div class="container">
+        <div id="headerCta">
+            <h1>Olá, meu nome<br>
+                é Jéssica
+            </h1>
+            <p>
+                Sou programadora e gostaria de apresentar meu<br>
+                trabalho para você através deste portfólio.
+            </p>
+            <a id="buttonCta" href="">Meus Serviços</a><!-- Link estilo botão -->
+        </div>
+        <div id="headerImg">
+            <img src="img/image 3.png"> <!-- Imagem decorativa -->
+        </div>
+    </div>
+    <!-- Seção com logos de clientes -->
+    <div class="container" id="clients">
+        <div id="headerClientText">
+            Alguns dos<br>
+            meus clientes
+        </div>
+    <!-- Logos -->
+        <div class="headerLogo">
+            <img src="img/apple.svg">
+        </div>
+        <div class="headerLogo">
+            <img src="img/slack.svg">
+        </div>
+        <div class="headerLogo">
+            <img src="img/spotify.svg">
+        </div>
+    </div>
+    <!-- Títulos da seção de serviços -->
+    <div class="container textCenter">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus Serviços</h1>
+        </div>
+    </div>
+    <!-- Cartões com os serviços oferecidos -->
+    <div class="container" id="services">
+        <div class="textCenter">
+            <img src="img/Group 21.svg">
+            <h3>Consultoria</h3>
+            <p>Te ajudo a organizar sua empresa
+                e melhorar seus resultados.
+            </p>
+        </div>
+        <div class="textCenter">
+            <img src="img/Group 17.svg">
+            <h3>E-mail Marketing</h3>
+            <p>Gerenciar campanhas é difícil.<br>
+                Conte comigo para te ajudar.
+            </p>
+        </div>
+        <div class="textCenter">
+            <img src="img/Group 19.svg">
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvo seu site inteiro<br>
+            do zero e te entrego prontinho.
+        </p>
+        </div>
+    </div>
+    <!-- Seção de contato com imagem e formulário -->
+    <div class="container" id="contact">
+        <div id="contactImg">
+            <img src="img/contact.svg"><!-- Imagem decorativa -->
+        </div>
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p>Digite aqui seu endereço de e-mail. Eu entrarei em<br>
+                contato para fornecer um diagnóstico gratuito.
+            </p>
+            <form action="https://formspree.io/f/moqzbroe" method="POST">
+                <!-- Campo de e-mail obrigatório -->
+                <p><input placeholder="Seu e-mail" type="text" name="contactEmail" required="required"></p>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <!-- Título da seção do portfólio -->
+    <div class="container" id="portifolioTitle">
+        <div>
+            <h2 class="red">Conheça o meu</h2>
+            <h1 class="black">Potifólio</h1>
+        </div>
+    </div>
+    <!-- Galeria com imagens do portfólio -->
+    <div class="container">
+        <div class="portifolioImg">
+            <img src="img/portifolio1.svg">
+        </div>
+        <div class="portifolioImg">
+            <img src="img/portifolio2.svg">
+        </div>
+        <div class="portifolioImg">
+            <img src="img/portifolio3.svg">
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,178 @@
+body {
+  margin-left: 15%;              /* Espaço à esquerda do corpo da página (para centralizar o conteúdo) */
+  margin-right: 15%;             /* Espaço à direita do corpo da página */
+}
+
+.container {
+  display: grid;                 /* Usa Grid Layout para os elementos filhos */
+  grid-auto-flow: column;       /* Organiza os itens automaticamente em colunas */
+  grid-auto-columns: 1fr;       /* Cada coluna terá o mesmo tamanho (fr = fração do espaço disponível) */
+}
+
+#header {
+  font-family: Poppins;         /* Usa a fonte importada */
+  font-size: 28px;              /* Tamanho do texto */
+  font-style: normal;           /* Sem itálico */
+  font-weight: 600;             /* Peso da fonte: semi-negrito */
+  line-height: 42px;            /* Altura entre linhas */
+  text-decoration-line: underline; /* Adiciona sublinhado */
+  color: #070F18;               /* Cor do texto */
+  margin-top: 40px;             /* Espaçamento acima */
+  margin-bottom: 40px;          /* Espaçamento abaixo */
+}
+
+#menu {
+  text-align: right;            /* Alinha o conteúdo à direita */
+  margin-top: 49px;             /* Espaço acima do menu */
+}
+
+#menu ul {
+  list-style-type: none;        /* Remove os marcadores padrão da lista */
+  margin: 0;                    /* Remove margens padrão */
+  padding: 0;                   /* Remove preenchimento padrão */
+}
+
+#menu li {
+  display: inline-block;        /* Coloca os itens da lista lado a lado */
+  margin-left: 20px;            /* Espaço entre os itens */
+  font-family: poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #070F18;
+}
+
+a {
+  color: black;                 /* Cor do link */
+  text-decoration: none;       /* Remove sublinhado padrão de links */
+}
+
+#buttonCta {
+  border-radius: 50px;          /* Bordas arredondadas como um botão “pill” */
+  background: #1F7CFF;          /* Cor de fundo azul */
+  color: #FFF;                  /* Cor do texto branca */
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  padding: 10px 25px;           /* Espaço interno (cima/baixo 10px, lados 25px) */
+}
+
+#headerCta p {
+  color: #575455;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;            /* Espaçamento entre linhas aumentado */
+}
+
+#headerCta h1 {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;             /* Negrito */
+}
+
+#headerImg {
+  margin-left: 42px;            /* Empurra a imagem um pouco para a direita */
+}
+
+#headerImg img {
+  width: 100%;                  /* Faz a imagem ocupar toda a largura disponível */
+}
+
+.headerLogo {
+  text-align: center;           /* Centraliza as logos de clientes */
+}
+
+#clients {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#headerClientText {
+  color: #070F18;
+  font-size: 16px;
+}
+
+h2.red {
+  color: #F75C4E;               /* Vermelho vibrante para subtítulo */
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h1.black {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;                /* Remove espaço superior padrão */
+}
+
+.textCenter {
+  text-align: center;           /* Centraliza o texto onde essa classe for aplicada */
+}
+
+#services .textCenter h3 {
+  color: #070F18;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#services .textCenter p {
+  color: #575455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+#contactImg img {
+  width: 100%;
+  border-radius: 50px;          /* Borda arredondada nas imagens de contato */
+}
+
+#contactForm {
+  margin-left: 75px;            /* Empurra o formulário para direita */
+  text-align: left;             /* Alinha o texto à esquerda */
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#contactForm p {
+  color: #575455;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#contactForm input {
+  background: #F5F6FB;          /* Fundo cinza-claro */
+  border-radius: 50px;
+  color: #575455;
+  border: 0;                    /* Remove a borda padrão do input */
+  width: 70%;                   /* Largura do input */
+  padding: 15px 35px;           /* Espaço interno */
+}
+
+#contactForm button {
+  background: #1F7CFF;
+  border-radius: 50px;
+  padding: 15px 35px;
+  color: #FFF;
+  font-weight: 600;
+  border: 0;
+}
+
+#portifolioTitle {
+  margin-top: 150px;            /* Espaço acima da seção do portfólio */
+}
+
+.portifolioImg img {
+  width: 100%;                  /* Faz cada imagem ocupar toda a largura do bloco */
+}
+
+.portifolioImg {
+  padding: 20px;                /* Espaço interno ao redor da imagem */
+}
+
